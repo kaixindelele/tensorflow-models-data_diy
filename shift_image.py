@@ -83,6 +83,8 @@ def rename():
     i = 1
     j = 1
     temp_image = None
+	#i是原有的文件最大数字，可以改；j是实际数目，不用改
+
     while(i<372):
         try:
             name = "rgb"+str(i)+".jpg"
